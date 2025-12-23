@@ -27,26 +27,33 @@ export const ContactForm: React.FC = () => {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-16">
           
           <div className="md:w-1/3">
-            <h3 className="font-serif text-3xl text-stone-800 mb-4">Reach Out</h3>
+            <h3 className="font-serif text-3xl text-stone-800 mb-4">Share Your Submission</h3>
             <p className="font-sans text-stone-600 mb-8 leading-relaxed">
-              We are here to listen. Whether you have a question, need resources, or simply want to share your story, our inbox is open.
+              Submit your deployed link, GitHub repository, and a short note on your process. We respond quickest between 10:00 and 18:00 NPT.
             </p>
-            <div className="mt-8">
-              <div className="flex space-x-6">
-                <a href="mailto:contact@jarurat.care" className="text-stone-400 hover:text-stone-600 transition-colors duration-300">
-                  <Mail size={20} strokeWidth={1.5} />
+            <div className="mt-8 space-y-6 text-left">
+              <div>
+                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-2">Email</p>
+                <a href="mailto:internships@sammunat.org" className="inline-flex items-center gap-2 text-stone-500 hover:text-stone-700 transition-colors duration-300">
+                  <Mail size={18} strokeWidth={1.5} /> internships@sammunat.org
                 </a>
-                <a href="tel:+1234567890" className="text-stone-400 hover:text-stone-600 transition-colors duration-300">
-                  <Phone size={20} strokeWidth={1.5} />
+              </div>
+              <div>
+                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-2">Phone / WhatsApp</p>
+                <a href="tel:+977123456789" className="inline-flex items-center gap-2 text-stone-500 hover:text-stone-700 transition-colors duration-300">
+                  <Phone size={18} strokeWidth={1.5} /> +977 123-456-789
                 </a>
-                <a href="https://instagram.com/jarurat.care" className="text-stone-400 hover:text-stone-600 transition-colors duration-300">
-                  <Instagram size={20} strokeWidth={1.5} />
-                </a>
-                <a href="https://www.linkedin.com/company/jaruratcare/" className="text-stone-400 hover:text-stone-600 transition-colors duration-300">
-                  <Linkedin size={20} strokeWidth={1.5} />
-                </a>
-                
-
+              </div>
+              <div>
+                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-2">Social</p>
+                <div className="flex space-x-6">
+                  <a href="https://instagram.com/sammunat_nepal" className="text-stone-400 hover:text-stone-600 transition-colors duration-300" aria-label="Sammunat on Instagram">
+                    <Instagram size={20} strokeWidth={1.5} />
+                  </a>
+                  <a href="https://www.linkedin.com/company/sammunat" className="text-stone-400 hover:text-stone-600 transition-colors duration-300" aria-label="Sammunat on LinkedIn">
+                    <Linkedin size={20} strokeWidth={1.5} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

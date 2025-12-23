@@ -56,22 +56,22 @@ export const Hero: React.FC = () => {
           
           {/* Text Content */}
           <div className="w-full lg:w-1/2 order-2 lg:order-1 opacity-0 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            <span className="block text-stone-500 text-sm tracking-[0.2em] uppercase mb-6 font-medium">
-              Together We Stand
+            <span className="block text-stone-500 text-sm tracking-[0.3em] uppercase mb-6 font-medium">
+              Internship Program 2025
             </span>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-stone-900 leading-[1.15] mb-8">
-              Finding strength in <br/>
-              <span className="italic text-stone-600">community</span> and <span className="italic text-stone-600">hope</span>.
+              Build impact with <br/>
+              <span className="italic text-stone-600">Sammunat</span> and your <span className="italic text-stone-600">skills</span>.
             </h2>
             <p className="font-sans text-stone-600 text-lg leading-relaxed mb-10 max-w-md">
-              Navigating the journey of cancer is never solitary. We are here to provide the awareness, resources, and emotional grounding you need.
+              Design and deliver a responsive landing page that reflects our mission of empowering communities through creativity, technology, and storytelling.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button onClick={() => scrollToSection('contact')}>
-                Join Our Community
+                Submit Your Entry
               </Button>
               <Button variant="outline" className="flex items-center justify-center gap-2 group" onClick={() => scrollToSection('support')}>
-                Learn More 
+                View Assignment Brief
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1 duration-300" />
               </Button>
             </div>
@@ -82,13 +82,18 @@ export const Hero: React.FC = () => {
             {/* The wrapper handles the parallax transform */}
             <div ref={imageRef} className="will-change-transform origin-bottom transition-transform duration-100 ease-out"> 
               <div className="relative aspect-[4/5] md:aspect-[5/4] lg:aspect-[4/5] overflow-hidden rounded-sm bg-stone-200 shadow-xl shadow-stone-200/50">
-                {/* Using a calm nature image from picsum */}
                 <img 
-                  src="https://images.pexels.com/photos/8051942/pexels-photo-8051942.jpeg" 
-                  alt="hero image" 
+                  src="https://images.pexels.com/photos/7698740/pexels-photo-7698740.jpeg" 
+                  alt="Sammunat internship collaboration" 
                   className="w-full h-full object-cover transition-transform duration-[2s] hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-stone-900/10 mix-blend-multiply pointer-events-none" />
+                <div className="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-sm p-4 rounded-sm shadow-sm">
+                  <p className="text-xs font-semibold tracking-[0.3em] text-stone-500 uppercase mb-1">Design. Document. Deliver.</p>
+                  <p className="text-sm text-stone-700 leading-relaxed">
+                    Bring together UX, engineering, and storytelling to help Sammunat scale community-led impact.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

@@ -57,7 +57,7 @@ export const QuoteSection: React.FC = () => {
       <div className="container mx-auto px-6 md:px-12 flex justify-center">
         <div className="w-full max-w-2xl">
           <div className="text-center mb-10">
-            <span className="text-xs font-semibold tracking-widest text-stone-400 uppercase">Thought for the Moment</span>
+            <span className="text-xs font-semibold tracking-widest text-stone-400 uppercase">Creative spark of the day</span>
           </div>
           
           <div className="min-h-[200px] flex flex-col justify-center items-center relative">

@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
           onClick={scrollToTop}
           className={`font-serif text-xl tracking-wider text-stone-800 transition-opacity duration-300 cursor-pointer hover:opacity-70 ${scrolled ? 'opacity-100' : 'opacity-90'}`}
         >
-          Jarurat Care
+          Sammunat Creative Internship
         </h1>
         {/* Minimal Nav - purely visual for this demo as per "Brand title only" requirement, keeping it clean */}
       </div>
